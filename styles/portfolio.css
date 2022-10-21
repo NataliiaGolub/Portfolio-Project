@@ -1,6 +1,6 @@
 :root {
   --branding-color: #6c63ff;
-  --secondary-color: #e3dcf7;
+  --secondary-color: #f5f2fe;
   --heading-font-family: "Playfair Display", serif;
   --default-font-family: "Poppins", sans-serif;
 }
@@ -66,7 +66,7 @@ h1 {
   border: 1px solid var(--branding-color);
 }
 .project-description {
-  padding: 120px 60px;
+  padding: 80px 60px;
 }
 @media (max-width: 900px) {
   h1 {
@@ -84,4 +84,17 @@ h1 {
   .hero {
     padding: 80px 20px;
   }
+  #hire {
+    margin-bottom: 20px;
+    margin-left: 47px;
+  }
+}
+img {
+  display: block;
+  padding-top: 150px;
+}
+#hire {
+  width: 213px;
+  text-align: center;
+  margin-right: 50px;
 }
