@@ -88,11 +88,11 @@ h1 {
     margin-bottom: 20px;
     margin-left: 47px;
   }
-  .about-section {
+  .content-container {
     text-align: center;
     padding: 0;
   }
-  .about-section .img-fluid {
+  .content-container .img-fluid {
     padding-top: 40px;
   }
 }
@@ -105,20 +105,31 @@ img {
   text-align: center;
   margin-right: 50px;
 }
-.about-section h1 {
+.content-container h1 {
   font-size: 64px;
   line-height: 80px;
 }
-.about-section h2 {
+.content-container h2 {
   font-size: 18px;
   font-family: var(--default-font-family);
 }
-.about-section {
+.content-container {
   padding: 80px 20px;
 }
-.about-section-content {
+.content {
   margin: 30px;
 }
-.about-section .img-fluid {
+.content-container .img-fluid {
+  width: 600px;
+}
+.content h3 {
+  font-size: 24px;
+  font-family: var(--default-font-family);
+  line-height: 1.5;
+}
+.content p {
+  font-size: 14px;
+}
+#photo {
   width: 400px;
 }
