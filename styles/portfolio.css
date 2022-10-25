@@ -30,7 +30,7 @@ p {
 .hero {
   background: var(--secondary-color);
   text-align: center;
-  padding: 160px 20px;
+  padding: 150px 20px;
 }
 
 .hero p {
@@ -95,6 +95,9 @@ h1 {
   .content-container .img-fluid {
     padding-top: 40px;
   }
+  nav a {
+    font-size: 12px;
+  }
 }
 img {
   display: block;
@@ -132,4 +135,31 @@ img {
 }
 #photo {
   width: 400px;
+}
+.logo {
+  max-width: 150px;
+  max-height: 40px;
+  padding-top: 0;
+}
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 42px;
+  margin-left: 15px;
+}
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+nav {
+  padding: 20px 0;
+}
+nav a {
+  text-decoration: none;
+  color: #272142;
+}
+nav a:hover,
+nav li.active a {
+  color: rgb(54, 225, 168);
+  transition: all 100ms ease-in-out;
 }
