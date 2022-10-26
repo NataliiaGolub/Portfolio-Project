@@ -136,13 +136,19 @@ footer .contact-box p {
   nav a {
     font-size: 12px;
   }
+  footer .email-link {
+    font-size: 18px;
+  }
+  #h1-work {
+    font-size: 30px;
+  }
 }
 img {
   display: block;
   padding-top: 150px;
 }
 #hire {
-  width: 213px;
+  width: 250px;
   text-align: center;
   margin-right: 50px;
 }
@@ -155,7 +161,7 @@ img {
   font-family: var(--default-font-family);
 }
 .content-container {
-  padding: 80px 20px;
+  padding-top: 0;
 }
 .content {
   margin: 30px;
@@ -173,6 +179,10 @@ img {
 }
 #photo {
   width: 400px;
+  padding-top: 30px;
+  padding-left: 40px;
+  padding-bottom: 30px;
+  padding-right: 40px;
 }
 .logo {
   max-width: 150px;
@@ -200,4 +210,52 @@ nav a:hover,
 nav li.active a {
   color: rgb(54, 225, 168);
   transition: all 100ms ease-in-out;
+}
+#first-free,
+#second-free,
+.contact-form {
+  background: var(--secondary-color);
+}
+
+#download {
+  background: none;
+}
+#email-work,
+#contact-first {
+  padding: 40px;
+  background: var(--secondary-color);
+}
+#h1-work {
+  padding: 40px;
+  background: var(--secondary-color);
+}
+#img-forecast,
+#cake_photo,
+#img-prom {
+  padding-top: 50px;
+}
+.contact-post {
+  font-family: var(--default-font-family);
+}
+.title-contact {
+  font-size: 24px;
+  font-weight: bold;
+  font-family: var(--default-font-family);
+}
+#contact-first a {
+  text-decoration: none;
+  color: #272142;
+}
+#contact-first a:hover {
+  color: var(--branding-color);
+  transition: all 100ms ease-in-out;
+}
+#WhatsAppBtn,
+#SkypeBtn,
+#EmailBtn {
+  font-size: 36px;
+  padding-left: 10px;
+}
+#p-contact {
+  padding-top: 30px;
 }

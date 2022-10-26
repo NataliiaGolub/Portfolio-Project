@@ -29,24 +29,44 @@
       crossorigin="anonymous"
     ></script>
     <link rel="stylesheet" href="/styles/portfolio.css" />
-    <title>Portfolio Project</title>
+    <link rel="icon" href="/images/logo_small.png" type="image/png" />
+    <title>About Nataliia Golub</title>
+    <meta
+      name="description"
+      content="Nataliia Golub is a front-end developer based in Canada.This section contains the information about me."
+    />
   </head>
   <body>
+    <div class="container">
+      <nav class="d-flex justify-content-between">
+        <a href="/" title="Homepage">
+          <img
+            src="/images/logo.png"
+            class="logo d-none d-md-block"
+            alt="Personal logo" />
+          <img
+            src="/images/logo_small.png"
+            class="logo d-block d-md-none"
+            alt="Personal logo small"
+        /></a>
+        <ul>
+          <li>
+            <a href="/" title="Homepage"> Home</a>
+          </li>
+          <li class="active">
+            <a href="/about.html" title="About me"> About</a>
+          </li>
+          <li><a href="/work.html" title="My projects"> Projects</a></li>
+          <li><a href="/contact.html" title="Contact me"> Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="content-container text-center container mb-5">
+      <h1>About Me</h1>
+    </div>
     <div class="content-container container">
       <div class="row">
-        <div class="col-lg-6">
-          <div class="content">
-            <h1>Hi, I am Nataliia Golub</h1>
-            <h2 class="mt-5 mb-4">Front-end developer based in Canada</h2>
-            <p class="mb-5">
-              For anyone who wants to start learning code, this workshop is very
-              interesting. You will be challenged with different exercises, and
-              everything is well explained, homework and deadlines are good for
-              keep focus.
-            </p>
-            <a href="#" class="btn btn-branding">See my projects</a>
-          </div>
-        </div>
+        <div class="col-lg-6" id="first-free"></div>
         <div class="col-lg-6">
           <img
             src="/images/my_photo.png"
@@ -57,5 +77,73 @@
         </div>
       </div>
     </div>
+    <div class="content-container container">
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="content">
+            <h1>Hello, I am Nataliia Golub</h1>
+            <h2 class="mt-5 mb-4">Front-end developer based in Canada</h2>
+            <p class="mb-5">
+              I worked and still working with people around the world. I design
+              and code thoughtful user interfaces that bring together beautiful,
+              simple things into an overall picture that is client-focused. I
+              like what I do. Please take you time and check my resume, see my
+              skills, and my experience, when you are ready drop me a message.
+            </p>
+            <a href="/work.html" class="btn btn-branding" title="My Projects"
+              >See my projects</a
+            >
+          </div>
+        </div>
+        <div class="col-lg-6" id="second-free"></div>
+      </div>
+    </div>
+    <footer>
+      <div class="contact-box justify-content-center mb-4 d-flex" id="download">
+        <div>
+          <a
+            href="/Nataliia_Golub_Resume.pdf"
+            download
+            class="btn btn-branding mt-4"
+            >Download RESUME</a
+          >
+        </div>
+      </div>
+      <div class="d-flex justify-content-center mb-5">
+        <a href="mailto:NataliiaGolub@gmx.com" class="email-link" title="Email"
+          >NataliiaGolub@gmx.com</a
+        >
+      </div>
+      <div class="social-links d-flex justify-content-center">
+        <a
+          href="https://www.instagram.com/natali.golub"
+          target="_blank"
+          title="Instagram Profile"
+          ><i class="fa-brands fa-instagram"></i
+        ></a>
+        <a
+          href="https://github.com/NataliiaGolub"
+          target="_blank"
+          title="GitHub Profile"
+          ><i class="fa-brands fa-github"></i
+        ></a>
+        <a
+          href="https://www.linkedin.com/in/nataliiagolub"
+          target="_blank"
+          title="LinkedIn Profile"
+          ><i class="fa-brands fa-linkedin"></i
+        ></a>
+      </div>
+      <p class="text-center text-muted mt-5">
+        This project was coded Nataliia Golub, and it is
+        <a
+          href="https://github.com/NataliiaGolub/Portfolio-Project"
+          target="_blank"
+          title="GitHub Project Portfolio"
+        >
+          open-sourced</a
+        >
+      </p>
+    </footer>
   </body>
 </html>
